@@ -8,7 +8,7 @@ Random Forest Classifier in SciKitLearn for Binary Classification - Base problem
 - pandas
 - numpy
 - scikit-optimize
-- flask
+- fastapi
 - nginx
 - uvicorn
 - docker
@@ -23,4 +23,4 @@ Hyperparameter Tuning (HPT) is conducted by finding the optimal number of decisi
 
 During the model development process, the algorithm was trained and evaluated on a variety of datasets such as email spam detection, customer churn, credit card fraud detection, cancer diagnosis, and titanic passanger survivor prediction.
 
-This Binary Classifier is written using Python as its programming language. Scikitlearn is used to implement the main algorithm, create the data preprocessing pipeline, and evaluate the model. Numpy, pandas, and feature_engine are used for the data preprocessing steps. SciKit-Optimize was used to handle the HPT. Flask + Nginx + gunicorn are used to provide web service which includes two endpoints- /ping for health check and /infer for predictions in real time.
+This Binary Classifier is written using Python as its programming language. Scikitlearn is used to implement the main algorithm, create the data preprocessing pipeline, and evaluate the model. Numpy, pandas, and feature_engine are used for the data preprocessing steps. SciKit-Optimize was used to handle the HPT. fastapi + Nginx + uvicorn are used to provide web service which includes two endpoints- /ping for health check and /infer for predictions in real time.
