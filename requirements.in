@@ -1,7 +1,7 @@
 pandas
 scikit-learn
 feature-engine
-scikit-optimize
+hyperopt
 python-multipart
 fastapi
 uvicorn[standard]
